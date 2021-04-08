@@ -21,7 +21,9 @@ setup(name='dh_segment',
         'tqdm>=4.31.1',
         'sacred==0.7.4',  # 0.7.5 causes an error
         'requests>=2.21.0',
-        'click>=7.0'
+        'click>=7.0',
+        'numpy>=1.19.5',
+        'tensorflow>=1.15.3'
       ],
       extras_require={
           'doc': [
